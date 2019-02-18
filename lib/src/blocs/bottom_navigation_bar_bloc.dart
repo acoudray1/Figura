@@ -1,9 +1,10 @@
 import 'dart:async';
+
 import 'package:figura/src/blocs/bloc_provider.dart';
 
 enum NavBarItem {HOME, WORKOUT, EXERCISE}
 
-class BottomNavigationBarBloc implements BlocBase {
+class BottomNavigationBarBloc extends BlocBase {
   
   final StreamController<NavBarItem> _navBarController = StreamController<NavBarItem>.broadcast();
 

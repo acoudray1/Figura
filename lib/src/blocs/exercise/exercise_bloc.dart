@@ -6,7 +6,7 @@ import 'package:rxdart/rxdart.dart';
 
 enum ListState {ALL, BACK, CHEST, LEG, SHOULDERS, TRICEPS, BICEPS, NECK, SEARCH}
 
-class ExerciseBloc implements BlocBase {
+class ExerciseBloc extends BlocBase {
   final Repository _repository = Repository();
   final PublishSubject<List<Exercise>> _exercisesFetcher = PublishSubject<List<Exercise>>();
   final StreamController<ListState> _exercisesSelector = StreamController<ListState>();
@@ -16,7 +16,7 @@ class ExerciseBloc implements BlocBase {
   Observable<List<Exercise>> get allExercises => _exercisesFetcher.stream;
   Stream<ListState> get selectedExercises => _exercisesSelector.stream;
  
-  /// On entre dans le stream les différentes valeurs de notre json
+  /// On entre dans le stream notre liste d'exercices
   /// 
   Future<List<Exercise>> fetchAllExercises() async {
     final List<Exercise> exercises = await _repository.fetchAllExercises();

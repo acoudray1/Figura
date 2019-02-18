@@ -1,6 +1,6 @@
 import 'package:figura/src/blocs/bloc_provider.dart';
 
-class ApplicationBloc implements BlocBase {
+class ApplicationBloc extends BlocBase{
   
   @override
   void dispose() {
