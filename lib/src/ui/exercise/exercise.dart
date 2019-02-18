@@ -1,9 +1,10 @@
+import 'package:figura/src/ui/exercise/exercise_list.dart';
 import 'package:flutter/material.dart';
 
-class Exercise extends StatelessWidget {
+class ExercisePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.blue, child: const Center(child: Text('3')));
+    return ExerciseList();
   }
 }

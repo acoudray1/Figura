@@ -1,0 +1,849 @@
+[
+  {
+    "name":"Bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE", "CABLE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 0
+  },
+  {
+    "name":"Cable crossover",
+    "TypeOfExercise":[
+      "CABLE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Around the world",
+    "TypeOfExercise":[
+      "DUMBELL"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Chest dips",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Chest fly",
+    "TypeOfExercise":[
+      "BAND", "MACHINE", "DUMBELL", "CABLE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "SHOULDERS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Chest press",
+    "TypeOfExercise":[
+      "BAND", "MACHINE", "CABLE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "SHOULDERS", "TRICEPS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Decline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Explosive push ups",
+    "TypeOfExercise":[
+      "BODYWEIGHT"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE", "CABLE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 0
+  },
+  {
+    "name":"Incline chest fly",
+    "TypeOfExercise":[
+      "DUMBELL", "BAND", "CABLE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Iso-lateral chest press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Pec deck",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Archer push ups",
+    "TypeOfExercise":[
+      "BODYWEIGHT"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Hindu push ups",
+    "TypeOfExercise":[
+      "BODYWEIGHT"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Diamond push ups",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline chest press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Pull up",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "BICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bent over row",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "FOREARMS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Squat",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "ASSISTED", "BODYWEIGHT"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Leg press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bicep curl",
+    "TypeOfExercise":[
+      "DUMBELL", "BARBELL", "CABLE", "MACHINE"
+    ],
+    "Categories":"BICEPS",
+    "SubCategories":[
+      "FOREARMS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Triceps extension",
+    "TypeOfExercise":[
+      "MACHINE", "CABLE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"TRICEPS",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Military press",
+    "TypeOfExercise":[
+      "MACHINE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"SHOULDERS",
+    "SubCategories":[
+      "BICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Pull up",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "BICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bent over row",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "FOREARMS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Squat",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "ASSISTED", "BODYWEIGHT"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Leg press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bicep curl",
+    "TypeOfExercise":[
+      "DUMBELL", "BARBELL", "CABLE", "MACHINE"
+    ],
+    "Categories":"BICEPS",
+    "SubCategories":[
+      "FOREARMS"
+    ],
+    "difficulty": 0
+  },
+  {
+    "name":"Triceps extension",
+    "TypeOfExercise":[
+      "MACHINE", "CABLE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"TRICEPS",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Military press",
+    "TypeOfExercise":[
+      "MACHINE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"SHOULDERS",
+    "SubCategories":[
+      "BICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Pull up",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "BICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bent over row",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "FOREARMS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Squat",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "ASSISTED", "BODYWEIGHT"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Leg press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bicep curl",
+    "TypeOfExercise":[
+      "DUMBELL", "BARBELL", "CABLE", "MACHINE"
+    ],
+    "Categories":"BICEPS",
+    "SubCategories":[
+      "FOREARMS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Triceps extension",
+    "TypeOfExercise":[
+      "MACHINE", "CABLE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"TRICEPS",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 0
+  },
+  {
+    "name":"Military press",
+    "TypeOfExercise":[
+      "MACHINE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"SHOULDERS",
+    "SubCategories":[
+      "BICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Pull up",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "BICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bent over row",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "FOREARMS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Squat",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "ASSISTED", "BODYWEIGHT"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Leg press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bicep curl",
+    "TypeOfExercise":[
+      "DUMBELL", "BARBELL", "CABLE", "MACHINE"
+    ],
+    "Categories":"BICEPS",
+    "SubCategories":[
+      "FOREARMS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Triceps extension",
+    "TypeOfExercise":[
+      "MACHINE", "CABLE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"TRICEPS",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Military press",
+    "TypeOfExercise":[
+      "MACHINE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"SHOULDERS",
+    "SubCategories":[
+      "BICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Pull up",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "BICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bent over row",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "FOREARMS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Squat",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "ASSISTED", "BODYWEIGHT"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 0
+  },
+  {
+    "name":"Leg press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bicep curl",
+    "TypeOfExercise":[
+      "DUMBELL", "BARBELL", "CABLE", "MACHINE"
+    ],
+    "Categories":"BICEPS",
+    "SubCategories":[
+      "FOREARMS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Triceps extension",
+    "TypeOfExercise":[
+      "MACHINE", "CABLE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"TRICEPS",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Military press",
+    "TypeOfExercise":[
+      "MACHINE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"SHOULDERS",
+    "SubCategories":[
+      "BICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Pull up",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "BICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bent over row",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "FOREARMS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Squat",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "ASSISTED", "BODYWEIGHT"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Leg press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bicep curl",
+    "TypeOfExercise":[
+      "DUMBELL", "BARBELL", "CABLE", "MACHINE"
+    ],
+    "Categories":"BICEPS",
+    "SubCategories":[
+      "FOREARMS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Triceps extension",
+    "TypeOfExercise":[
+      "MACHINE", "CABLE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"TRICEPS",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Military press",
+    "TypeOfExercise":[
+      "MACHINE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"SHOULDERS",
+    "SubCategories":[
+      "BICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Incline bench press",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "MACHINE"
+    ],
+    "Categories":"CHEST",
+    "SubCategories":[
+      "TRICEPS", "SHOULDERS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Pull up",
+    "TypeOfExercise":[
+      "BODYWEIGHT", "LOADED", "ASSISTED"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "BICEPS"
+    ],
+    "difficulty": 4
+  },
+  {
+    "name":"Bent over row",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL"
+    ],
+    "Categories":"BACK",
+    "SubCategories":[
+      "LATISSIMUS", "RHOMBOIDS", "FOREARMS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Squat",
+    "TypeOfExercise":[
+      "BARBELL", "DUMBELL", "ASSISTED", "BODYWEIGHT"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 3
+  },
+  {
+    "name":"Leg press",
+    "TypeOfExercise":[
+      "MACHINE"
+    ],
+    "Categories":"LEG",
+    "SubCategories":[
+      "GLUTES", "HAMSTRING", "QUADRICEPS"
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Bicep curl",
+    "TypeOfExercise":[
+      "DUMBELL", "BARBELL", "CABLE", "MACHINE"
+    ],
+    "Categories":"BICEPS",
+    "SubCategories":[
+      "FOREARMS"
+    ],
+    "difficulty": 1
+  },
+  {
+    "name":"Triceps extension",
+    "TypeOfExercise":[
+      "MACHINE", "CABLE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"TRICEPS",
+    "SubCategories":[
+      
+    ],
+    "difficulty": 2
+  },
+  {
+    "name":"Military press",
+    "TypeOfExercise":[
+      "MACHINE", "DUMBELL", "BARBELL"
+    ],
+    "Categories":"SHOULDERS",
+    "SubCategories":[
+      "BICEPS"
+    ],
+    "difficulty": 2
+  }
+ ]
