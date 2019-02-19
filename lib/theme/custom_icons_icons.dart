@@ -12,26 +12,38 @@
 ///       - asset: fonts/CustomIcons.ttf
 ///
 /// 
-/// * Typicons, (c) Stephen Hutchings 2012
-///         Author:    Stephen Hutchings
-///         License:   SIL (http://scripts.sil.org/OFL)
-///         Homepage:  http://typicons.com/
 /// * Font Awesome, Copyright (C) 2016 by Dave Gandy
 ///         Author:    Dave Gandy
 ///         License:   SIL ()
 ///         Homepage:  http://fortawesome.github.com/Font-Awesome/
+/// * Linearicons Free, Copyright (C) Linearicons.com
+///         Author:    Perxis
+///         License:   CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+///         Homepage:  https://linearicons.com
+/// * Entypo, Copyright (C) 2012 by Daniel Bruce
+///         Author:    Daniel Bruce
+///         License:   SIL (http://scripts.sil.org/OFL)
+///         Homepage:  http://www.entypo.com
+/// * Elusive, Copyright (C) 2013 by Aristeides Stathopoulos
+///         Author:    Aristeides Stathopoulos
+///         License:   SIL (http://scripts.sil.org/OFL)
+///         Homepage:  http://aristeides.com/
+/// * Web Symbols, Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
+///         Author:    Just Be Nice studio
+///         License:   SIL (http://scripts.sil.org/OFL)
+///         Homepage:  http://www.justbenicestudio.com/
 ///
 import 'package:flutter/widgets.dart';
 
 class CustomIcons {
   CustomIcons._();
 
-  static const String _kFontFam = 'CustomIcons';
+  static const _kFontFam = 'CustomIcons';
 
-  static const IconData home_outline = IconData(0xe800, fontFamily: _kFontFam);
-  static const IconData home = IconData(0xe801, fontFamily: _kFontFam);
-  static const IconData th_list = IconData(0xe802, fontFamily: _kFontFam);
-  static const IconData th_list_outline = IconData(0xe803, fontFamily: _kFontFam);
-  static const IconData plus_squared = IconData(0xf0fe, fontFamily: _kFontFam);
-  static const IconData plus_squared_alt = IconData(0xf196, fontFamily: _kFontFam);
+  static const IconData home = const IconData(0xe800, fontFamily: _kFontFam);
+  static const IconData home_1 = const IconData(0xe801, fontFamily: _kFontFam);
+  static const IconData plus = const IconData(0xe802, fontFamily: _kFontFam);
+  static const IconData plus_squared = const IconData(0xe803, fontFamily: _kFontFam);
+  static const IconData th = const IconData(0xe804, fontFamily: _kFontFam);
+  static const IconData th_large = const IconData(0xe805, fontFamily: _kFontFam);
 }
