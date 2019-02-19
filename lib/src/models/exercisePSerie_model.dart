@@ -1,7 +1,9 @@
-import 'package:muscle/general/class_exercise.dart';
-import 'package:muscle/general/enum/enum_categories.dart';
-import 'package:muscle/general/enum/enum_sub_categories.dart';
-import 'package:muscle/general/enum/enum_type_of_exercises.dart';
+
+
+import 'package:figura/src/models/enum/enum_categories.dart';
+import 'package:figura/src/models/enum/enum_sub_categories.dart';
+import 'package:figura/src/models/enum/enum_type_of_exercises.dart';
+import 'package:figura/src/models/exercise_model.dart';
 
 class ExercisePSerie{
   
@@ -41,7 +43,7 @@ class ExercisePSerie{
 
   /// Write in a Json files
   /// 
-  Map<String, dynamic> toJson() => {
+  Map<String, dynamic> toJson() => <String, dynamic> {
       'name': name,
       'typeOfExercise': typeOfExerciseValues.reverse[typeOfExercise],
       'Categories': categoriesValues.reverse[categories],

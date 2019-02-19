@@ -1,7 +1,7 @@
 import 'package:figura/src/blocs/bloc_provider.dart';
+import 'package:figura/src/blocs/exercise_bloc.dart';
 //import 'package:figura/src/blocs/exercise/exercise_bloc.dart';
 import 'package:figura/src/models/exercise_model.dart';
-import 'package:figura/src/ui/exercise/exercise_row.dart';
 import 'package:figura/theme/text_style.dart';
 import 'package:flutter/material.dart';
 
@@ -13,13 +13,13 @@ class ExerciseList extends StatefulWidget {
 
 class _ExerciseListState extends State<ExerciseList> {
   // Creation du bloc controller 
-  final ExerciseBloc exerciseBloc; 
+  ExerciseBloc exerciseBloc; 
   // Création de ma liste d'exercices à afficher
   List<Exercise> exercises = <Exercise>[];
   // Définition des variables utilisées pour la search bar
-  IconData _searchIcon = Icons.search;
+  final IconData _searchIcon = Icons.search;
   Widget _appBarTitle;
-  Text _flexibleTitle = Text('Exercises', style: Style.titleTextStyle, textAlign: TextAlign.center);
+  final Text _flexibleTitle = Text('Exercises', style: Style.titleTextStyle, textAlign: TextAlign.center);
   final TextEditingController _textController = TextEditingController();
   
   @override
@@ -44,24 +44,24 @@ class _ExerciseListState extends State<ExerciseList> {
       bloc: exerciseBloc,
       child: StreamBuilder<List<Exercise>>(
         stream: exerciseBloc.allExercises,
-        builder: (context, AsyncSnapshot<ItemModel> snapshot) {
+        builder: (BuildContext context, AsyncSnapshot<List<Exercise>> snapshot) {
+          if(snapshot.hasError) {
+            return const Text('An error occured, we apologize for this...'); 
+          } else if(snapshot.hasData) {
+            // on stock les valeurs récupérées dans la variable 'exercises'
+            exercises = snapshot.data;
           return Scaffold(
             resizeToAvoidBottomPadding: false,
             backgroundColor: const Color(0xFF333366),
             body: CustomScrollView(
               slivers: <Widget>[
-                buildSliverAppBar(_searchIcon, _flexibleTitle, _appBarTitle, _textController);
-                if(snapshot.hasError) {
-                  return Text('An error occured, we apologize for this...'); 
-                } else if(snapshot.hasData) {
-                  // on stock les valeurs récupérées dans la variable 'exercises'
-                  exercises = snapshot.data;
-                  return buildList(exercises); 
-                }
-                return Center(child: CircularProgressIndicator());
+                buildSliverAppBar(_searchIcon, _flexibleTitle, _appBarTitle, _textController),
+                //buildList(exercises), 
               ],
             ),
-          ),
+          );}
+          return const Center(child: CircularProgressIndicator()
+          );
         },
       ),
     );  

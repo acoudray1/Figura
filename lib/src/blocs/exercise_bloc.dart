@@ -1,3 +1,5 @@
+import 'package:figura/src/models/exercise_model.dart';
+import 'package:figura/src/ressources/repository.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:figura/src/blocs/bloc_provider.dart';
 
@@ -12,15 +14,15 @@ class ExerciseBloc extends BlocBase {
   final PublishSubject<List<Exercise>> _exercisesFetcher = PublishSubject<List<Exercise>>();
   
   // Observable du PublishSubject créés précédemment
-  final Observable<List<Exercise>> get allExercises => _exercisesFetcher.stream;
+  Observable<List<Exercise>> get allExercises => _exercisesFetcher.stream;
   
   // Methode appelant la méthode 'fetchAllExercises' de repository afin d'envoyer dans le PublishSubject le résultat
   Future<List<Exercise>> fetchAllExercises() async  {
     // on récupère nos data
-    List<Exercise>> exercises = await _repository.fetchAllExercises();
+    final List<Exercise> exercises = await _repository.fetchAllExercises();
     // on les envoies dans le StreamController qui nous les renverra en Stream
-    _exercisessFetcher.add(exercises);
-    return [];
+    _exercisesFetcher.add(exercises);
+    return <Exercise>[];
   }
   
   @override

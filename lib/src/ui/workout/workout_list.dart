@@ -1,5 +1,5 @@
-
-
+import 'package:flutter/material.dart';
+/*
 class WorkoutList extends StatefulWidget {
 
   @override
@@ -26,5 +26,4 @@ class _WorkoutListState extends State<WorkoutList> {
     bloc.dispose();
     super.dispose();
   }
-
-}
+}*/

@@ -1,6 +1,7 @@
-import 'package:muscle/general/enum/enum_categories.dart';
-import 'package:muscle/general/enum/enum_feedback.dart';
-import 'package:muscle/workout/controlleur/class_exercisePSerie.dart';
+
+import 'package:figura/src/models/enum/enum_categories.dart';
+import 'package:figura/src/models/enum/enum_feedback.dart';
+import 'package:figura/src/models/exercisePSerie_model.dart';
 
 class Serie {
   Serie({this.exercisePSerie});
@@ -17,7 +18,7 @@ class Serie {
 
   /// Write in a Json files
   /// 
-  Map<String, dynamic> toJson() => {
+  Map<String, dynamic> toJson() => <String, dynamic> {
       'exercisePSerie': List<dynamic>.from(exercisePSerie.map<dynamic>((dynamic x) => x.toJson())),
   };
   

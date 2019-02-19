@@ -28,7 +28,7 @@ class Workout {
 
   /// Write in a Json files
   /// 
-  Map<String, dynamic> toJson() => {
+  Map<String, dynamic> toJson() => <String, dynamic> {
       'name': name,
       'description': description,
       'typeOfWorkout': typeOfWorkoutValues.reverse[typeOfWorkout],

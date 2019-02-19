@@ -1,4 +1,4 @@
-import 'package:muscle/workout/controlleur/class_serie.dart';
+import 'package:figura/src/models/serie_model.dart';
 
 class Routine {
   Routine({List<Serie> series}) {
@@ -18,7 +18,7 @@ class Routine {
 
   /// Write in a Json files
   /// 
-  Map<String, dynamic> toJson() => {
+  Map<String, dynamic> toJson() => <String, dynamic> {
       'series': List<dynamic>.from(series.map<dynamic>((dynamic x) => x.toJson())),
   };
   
@@ -99,11 +99,11 @@ class Routine {
     for(int i = 0; i < series.length; i++) {
       for(int j = 0; j < series[i].exercisePSerie.length; j++) {
         if(series[i].exercisePSerie[j].categories != null) {
-          ret.add([series[i].exercisePSerie[j].categories, 3]);
+          ret.add(<dynamic>[series[i].exercisePSerie[j].categories, 3]);
         }
         if(series[i].exercisePSerie[j].subCategories != null) {
           for(int k = 0; k < series[i].exercisePSerie[j].subCategories.length; k++)
-            ret.add([series[i].exercisePSerie[j].subCategories[k], 1]);
+            ret.add(<dynamic>[series[i].exercisePSerie[j].subCategories[k], 1]);
         }
       }
     }
