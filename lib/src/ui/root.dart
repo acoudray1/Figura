@@ -44,8 +44,8 @@ class RootState extends State<Root> {
   // items 
   final List<BottomNavigationBarItem> _navigationBarItems = <BottomNavigationBarItem> [
     const BottomNavigationBarItem(
-      icon: Icon(CustomIcons.home, color: Colors.black26),
-      activeIcon: Icon(CustomIcons.home_1, color: Colors.black87),
+      icon: Icon(CustomIcons.home_1, color: Colors.black26),
+      activeIcon: Icon(CustomIcons.home, color: Colors.black87),
       title: Text('Home'),
     ),
     const BottomNavigationBarItem(
