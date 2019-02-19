@@ -2,6 +2,7 @@ import 'package:figura/src/blocs/bloc_provider.dart';
 import 'package:figura/src/blocs/exercise_bloc.dart';
 //import 'package:figura/src/blocs/exercise/exercise_bloc.dart';
 import 'package:figura/src/models/exercise_model.dart';
+import 'package:figura/src/ui/exercise/exercise_row.dart';
 import 'package:figura/theme/text_style.dart';
 import 'package:flutter/material.dart';
 
@@ -56,7 +57,7 @@ class _ExerciseListState extends State<ExerciseList> {
             body: CustomScrollView(
               slivers: <Widget>[
                 buildSliverAppBar(_searchIcon, _flexibleTitle, _appBarTitle, _textController),
-                //buildList(exercises), 
+                buildList(exercises), 
               ],
             ),
           );}
