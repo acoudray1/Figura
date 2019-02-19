@@ -16,7 +16,12 @@ class _ExerciseListState extends State<ExerciseList> {
   final ExerciseBloc exerciseBloc; 
   // Création de ma liste d'exercices à afficher
   List<Exercise> exercises = <Exercise>[];
-
+  // Définition des variables utilisées pour la search bar
+  IconData _searchIcon = Icons.search;
+  Widget _appBarTitle;
+  Text _flexibleTitle = Text('Exercises', style: Style.titleTextStyle, textAlign: TextAlign.center);
+  final TextEditingController _textController = TextEditingController();
+  
   @override
   void initState() {
     super.initState();
@@ -41,9 +46,11 @@ class _ExerciseListState extends State<ExerciseList> {
         stream: exerciseBloc.allExercises,
         builder: (context, AsyncSnapshot<ItemModel> snapshot) {
           return Scaffold(
+            resizeToAvoidBottomPadding: false,
+            backgroundColor: const Color(0xFF333366),
             body: CustomScrollView(
               slivers: <Widget>[
-                buildSliverAppBar(IconData icon, '...' flexibleTitle, '...' appBarTitle);
+                buildSliverAppBar(_searchIcon, _flexibleTitle, _appBarTitle, _textController);
                 if(snapshot.hasError) {
                   return Text('An error occured, we apologize for this...'); 
                 } else if(snapshot.hasData) {
@@ -58,5 +65,52 @@ class _ExerciseListState extends State<ExerciseList> {
         },
       ),
     );  
+  }
+  
+  /// SliverAppBar Widget used in the exercise page
+  ///
+  SliverAppBar buildSliverAppBar(IconData icon, Text flexibleTitle, Widget appBarTitle, TextEditingController textController) {
+    return SliverAppBar(
+      expandedHeight: 200.0,
+      centerTitle: true,
+      title: appBarTitle,
+      flexibleSpace: FlexibleSpaceBar(
+        title: flexibleTitle,
+        centerTitle: true,
+        background: Image.asset('assets/images/exercise_page_sliver_app_bar.jpg',
+          fit: BoxFit.cover,
+          ),
+        collapseMode: CollapseMode.parallax,
+      ),
+      pinned: true,
+      /*actions: <Widget>[
+        IconButton(
+          icon: Icon(iconSearch),
+          onPressed: () {
+            setState(() {
+              if(iconSearch == Icons.search) {
+                iconSearch = Icons.close;
+                flexibleTitle = null;
+                appBarTitle = PreferredSize(
+                  preferredSize: Size(MediaQuery.of(context).size.width - 100, 10),
+                  child: TextField(
+                    controller: textController,
+                    style: const TextStyle(color: Colors.white),
+                    decoration: const InputDecoration(
+                      prefixIcon: Icon(Icons.search, color: Colors.white),
+                      hintText: 'Search...',
+                      hintStyle: TextStyle(color: Colors.white),
+                    ),
+                    onChanged: searchOperation,
+                  ),
+                );
+                handleSearchStart();
+              } else
+                handleSearchEnd();
+            }); 
+          },
+        )
+      ],*/
+    ); 
   }
 }
