@@ -12,21 +12,51 @@ class ExerciseList extends StatefulWidget {
 }
 
 class _ExerciseListState extends State<ExerciseList> {
-  
+  // Creation du bloc controller 
+  final ExerciseBloc exerciseBloc; 
+  // Création de ma liste d'exercices à afficher
   List<Exercise> exercises = <Exercise>[];
 
   @override
   void initState() {
     super.initState();
+    // initialisation du bloc 
+    exerciseBloc = ExerciseBloc(); 
+    // Appel de la méthode à l'initialisation de la page
+    exerciseBloc.fetchAllExercises();
+  }
+
+  @override
+  void dispose() {
+    exerciseBloc?.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    // initialisation du bloc
-    //final ExerciseBloc exerciseBloc = BlocProvider.of<ExerciseBloc>(context);
 
-    return Scaffold(
-      body: Container(height: 0, width: 0),
-    );
+    return BlocProvider<ExerciseBloc>(
+      bloc: exerciseBloc,
+      child: StreamBuilder<List<Exercise>>(
+        stream: exerciseBloc.allExercises,
+        builder: (context, AsyncSnapshot<ItemModel> snapshot) {
+          return Scaffold(
+            body: CustomScrollView(
+              slivers: <Widget>[
+                buildSliverAppBar(IconData icon, '...' flexibleTitle, '...' appBarTitle);
+                if(snapshot.hasError) {
+                  return Text('An error occured, we apologize for this...'); 
+                } else if(snapshot.hasData) {
+                  // on stock les valeurs récupérées dans la variable 'exercises'
+                  exercises = snapshot.data;
+                  return buildList(exercises); 
+                }
+                return Center(child: CircularProgressIndicator());
+              ],
+            ),
+          ),
+        },
+      ),
+    );  
   }
 }
