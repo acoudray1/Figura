@@ -29,7 +29,8 @@ class ApplicationBloc extends BlocBase{
   
   @override
   void dispose() {
-    // TODO: implement dispose
+    _exercisesFetcher.close();
+    _workoutsFetcher.close();
   }
 
 }
