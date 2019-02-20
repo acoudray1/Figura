@@ -38,12 +38,12 @@ import 'package:flutter/widgets.dart';
 class CustomIcons {
   CustomIcons._();
 
-  static const _kFontFam = 'CustomIcons';
+  static const String _kFontFam = 'CustomIcons';
 
-  static const IconData home = const IconData(0xe800, fontFamily: _kFontFam);
-  static const IconData home_1 = const IconData(0xe801, fontFamily: _kFontFam);
-  static const IconData plus = const IconData(0xe802, fontFamily: _kFontFam);
-  static const IconData plus_squared = const IconData(0xe803, fontFamily: _kFontFam);
-  static const IconData th = const IconData(0xe804, fontFamily: _kFontFam);
-  static const IconData th_large = const IconData(0xe805, fontFamily: _kFontFam);
+  static const IconData home = IconData(0xe800, fontFamily: _kFontFam);
+  static const IconData home_1 = IconData(0xe801, fontFamily: _kFontFam);
+  static const IconData plus = IconData(0xe802, fontFamily: _kFontFam);
+  static const IconData plus_squared = IconData(0xe803, fontFamily: _kFontFam);
+  static const IconData th = IconData(0xe804, fontFamily: _kFontFam);
+  static const IconData th_large = IconData(0xe805, fontFamily: _kFontFam);
 }
