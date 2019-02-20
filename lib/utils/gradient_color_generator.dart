@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 LinearGradient gradientGenerator(int index){
 
   final List<Color> leftColors = 
-  [  
+  <Color> [  
                               const Color.fromRGBO(0, 176, 155, 1),               // (0) difficulty 1 
                               const Color.fromRGBO(86, 204, 247, 1),              // (1) difficulty 2
                               const Color.fromRGBO(247, 151, 30, 1),              // (2) difficulty 3
@@ -24,7 +24,7 @@ LinearGradient gradientGenerator(int index){
 ];
 
   final List<Color> rightColors = 
-  [ 
+  <Color> [ 
                               const Color.fromRGBO(150, 201, 61, 1),              // difficulty 1
                               const Color.fromRGBO(47, 128, 237, 1),              // difficulty 2
                               const Color.fromRGBO(255, 210, 0, 1),               // difficulty 3

@@ -4,7 +4,7 @@ enum Categories {
   ALL, BACK, CHEST, LEG, SHOULDERS, TRICEPS, BICEPS, NECK
 }
 
-final EnumValues<Categories> categoriesValues = EnumValues<Categories>({
+final EnumValues<Categories> categoriesValues = EnumValues<Categories>(<String, Categories> {
     'BACK': Categories.BACK,
     'BICEPS': Categories.BICEPS,
     'CHEST': Categories.CHEST,

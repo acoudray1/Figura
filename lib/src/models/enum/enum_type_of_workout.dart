@@ -4,7 +4,7 @@ enum TypeOfWorkout {
   PUSH, PULL, LEG, UPPER_BODY, LOWER_BODY, CHEST, BACK, SHOULDERS, ARMS, CARDIO, FULL_BODY, OTHER, 
 }
 
-final EnumValues<TypeOfWorkout> typeOfWorkoutValues = EnumValues<TypeOfWorkout>({
+final EnumValues<TypeOfWorkout> typeOfWorkoutValues = EnumValues<TypeOfWorkout>(<String, TypeOfWorkout> {
     'PUSH': TypeOfWorkout.PUSH,
     'PULL': TypeOfWorkout.PULL,
     'LEG': TypeOfWorkout.LEG,

@@ -4,7 +4,7 @@ enum SubCategories {
   LATISSIMUS, RHOMBOIDS, FOREARMS, GLUTES, HAMSTRING, QUADRICEPS, BICEPS, SHOULDERS, TRICEPS,
 }
 
-final EnumValues<SubCategories> subCategoriesValues = EnumValues<SubCategories> ({
+final EnumValues<SubCategories> subCategoriesValues = EnumValues<SubCategories> (<String, SubCategories> {
     'BICEPS': SubCategories.BICEPS,
     'FOREARMS': SubCategories.FOREARMS,
     'GLUTES': SubCategories.GLUTES,

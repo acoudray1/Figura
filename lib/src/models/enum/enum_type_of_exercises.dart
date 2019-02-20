@@ -4,7 +4,7 @@ enum TypeOfExercise {
   BARBELL, DUMBELL, MACHINE, BODYWEIGHT, LOADED, ASSISTED, CABLE,
 }
 
-final EnumValues<TypeOfExercise> typeOfExerciseValues = EnumValues<TypeOfExercise>({
+final EnumValues<TypeOfExercise> typeOfExerciseValues = EnumValues<TypeOfExercise>(<String, TypeOfExercise> {
     'ASSISTED': TypeOfExercise.ASSISTED,
     'BARBELL': TypeOfExercise.BARBELL,
     'BODYWEIGHT': TypeOfExercise.BODYWEIGHT,

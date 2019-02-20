@@ -44,7 +44,7 @@ class _ExerciseListState extends State<ExerciseList> {
     return BlocProvider<ExerciseBloc>(
       bloc: exerciseBloc,
       child: StreamBuilder<List<Exercise>>(
-        stream: exerciseBloc.allExercises,
+        stream: exerciseBloc.listOfExercises,
         builder: (BuildContext context, AsyncSnapshot<List<Exercise>> snapshot) {
           if(snapshot.hasError) {
             return const Text('An error occured, we apologize for this...'); 
@@ -84,13 +84,13 @@ class _ExerciseListState extends State<ExerciseList> {
         collapseMode: CollapseMode.parallax,
       ),
       pinned: true,
-      /*actions: <Widget>[
+      actions: <Widget>[
         IconButton(
-          icon: Icon(iconSearch),
+          icon: Icon(icon),
           onPressed: () {
             setState(() {
-              if(iconSearch == Icons.search) {
-                iconSearch = Icons.close;
+              if(icon == Icons.search) {
+                icon = Icons.close;
                 flexibleTitle = null;
                 appBarTitle = PreferredSize(
                   preferredSize: Size(MediaQuery.of(context).size.width - 100, 10),
@@ -111,7 +111,7 @@ class _ExerciseListState extends State<ExerciseList> {
             }); 
           },
         )
-      ],*/
+      ],
     ); 
   }
 }
