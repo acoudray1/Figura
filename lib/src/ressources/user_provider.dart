@@ -7,7 +7,7 @@ class UserProvider {
   /// @param : (String) Path of the json file (The json file must be added to the pubspec.yaml)
   /// @return Future<User>
   ///
-  Future<User> fetchExercises(String path) async {
+  Future<User> fetchUser(String path) async {
     final String response = await rootBundle.loadString(path);
 
     // Use the compute function to run parsePhotos in a separate isolate
