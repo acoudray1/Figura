@@ -36,8 +36,8 @@ class User {
     Sex sex;
     int age;
     int workoutPerWeekGoal;
-    List<Measures> measures;
-    List<MeasuresGoal> measuresGoal;
+    List<Map<String, double>> measures;
+    List<Map<String, double>> measuresGoal;
     
     /// Write in a Json files
     /// 
