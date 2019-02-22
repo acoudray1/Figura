@@ -12,7 +12,7 @@ class Workout {
   factory Workout.fromJson(Map<String, dynamic> json) => Workout(
       name: json['name'],
       description: json['description'],
-      typeOfWorkout: typeOfWorkoutValues.map[json['Categories']],
+      typeOfWorkout: typeOfWorkoutValues.map[json['TypeOfWorkout']],
       routines: List<Routine>.from(json['routines'].map((dynamic x) => Routine.fromJson(x))),
   );
 
