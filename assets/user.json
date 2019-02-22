@@ -1,0 +1,52 @@
+{
+  "user_firstname": "Axel",
+  "user_lastname": "COUDRAY",
+  "age": 20,
+  "workout_per_week_goal": 5,
+  "measures": [
+      {
+        "weight": 89,
+        "body_fat_percentage": 12,
+        "shoulders": 100,
+        "left_forearm": 100,
+        "right_forearm": 100,
+        "upper_abs": 100,
+        "lower_abs":100,
+        "waist": 100,
+        "hips": 100,
+        "left_thigh": 100,
+        "right_thigh": 100,
+        "left_calf": 100,
+        "right_calf": 100,
+        "left_triceps": 100,
+        "right_triceps": 100,
+        "chest":103,
+        "left_bicep":46,
+        "right_bicep":45.5,
+        "neck": 36
+      }
+  ],
+    "measures_goal": [
+      {
+        "weight_goal": 89,
+        "body_fat_percentage_goal": 19,
+        "shoulders_goal": 109,
+        "left_forearm_goal": 109,
+        "right_forearm_goal": 109,
+        "upper_abs_goal": 109,
+        "lower_abs_goal":109,
+        "waist_goal": 109,
+        "hips_goal": 109,
+        "left_thigh_goal": 109,
+        "right_thigh_goal": 109,
+        "left_calf_goal": 109,
+        "right_calf_goal": 109,
+        "left_triceps_goal": 109,
+        "right_triceps_goal": 109,
+        "chest_goal":109,
+        "left_bicep_goal":49,
+        "right_bicep_goal":45.9,
+        "neck_goal": 39
+      }
+    ]
+}
