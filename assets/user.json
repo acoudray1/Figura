@@ -1,6 +1,7 @@
 {
   "user_firstname": "Axel",
   "user_lastname": "COUDRAY",
+  "sex": "MALE",
   "age": 20,
   "workout_per_week_goal": 5,
   "measures": [
