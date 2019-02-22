@@ -1,3 +1,5 @@
+import 'package:figura/src/models/enum/enum_values.dart';
+
 enum Sex {
   FEMALE, MALE, OTHER,
 }
